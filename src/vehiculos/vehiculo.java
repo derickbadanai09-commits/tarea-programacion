@@ -42,6 +42,6 @@ public class vehiculo {
         return numVehiculos * this.precioPorDia;
     }
     public String toString(){
-        return " Vehiculos: " + this.modelo + " (" + this.precioPorDia + " €/día";
+        return " Vehiculo: " + this.modelo + " (" + this.precioPorDia + " €/día)";
     }
 }

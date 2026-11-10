@@ -4,7 +4,7 @@ public class coche extends vehiculo {
     //son los atributos dentro de la clase coche extendido con vehiculo
     private String marca;
     private int caballos;
-    private enum Motor {GASOLINA,DISEL,HIBRIDO,ELETRICO};
+    public enum Motor {GASOLINA,DISEL,HIBRIDO,ELETRICO};
     private Motor motor;
 //constructores completo y vacio
     public coche(String modelo, int numeroPlazas, double precioPorDia, int caballos, String marca, Motor motor) {

@@ -4,8 +4,8 @@ import vehiculos.vehiculo;
 
 public class administrador extends usuario {
     // los atributos de la classe administrador
-    private enum Roi {JEFE,VENDEDOR}
-    private Roi roi;
+    public enum Roi {JEFE,VENDEDOR}
+    public Roi roi;
 
     public administrador(int anyoNacimiento, String contrasenya, int id, String nombreUsuario, Roi roi) {
         super(anyoNacimiento, contrasenya, id, nombreUsuario);
